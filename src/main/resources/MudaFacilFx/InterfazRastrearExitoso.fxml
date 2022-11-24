@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MudaFacilFx.InterfazRastrearExitoso">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#68da3e" layoutX="105.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ubicación">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="429.0" fitWidth="301.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/Map.png" />
+               </image>
+            </ImageView>
+            <Line endX="203.0" layoutX="97.0" layoutY="84.0" startX="-100.0" stroke="#5eb93a" />
+            <Line endX="203.0" layoutX="96.0" layoutY="465.0" startX="-100.0" stroke="#61bf3b" />
+            <Button fx:id="ubicacion" layoutX="125.0" layoutY="511.0" mnemonicParsing="false" style="-fx-background-color: Transparent;" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

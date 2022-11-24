@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MudaFacilFx.InterfazAgregarArticuloCliente">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="agregarArticulosClienteNombre" layoutX="45.0" layoutY="89.0" prefHeight="27.0" prefWidth="210.0" promptText="Nombre Articulo" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="agregarArticulosClienteLargo" layoutX="6.0" layoutY="134.0" prefHeight="27.0" prefWidth="70.0" promptText="Largo (cm)" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="agregarArticulosClienteAncho" layoutX="152.0" layoutY="134.0" prefHeight="27.0" prefWidth="75.0" promptText="Ancho (cm)" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="agregarArticulosClienteAlto" layoutX="80.0" layoutY="134.0" prefHeight="27.0" prefWidth="67.0" promptText="Alto (cm)" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text fill="#68da3e" layoutX="41.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agregando Articulos">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <Button fx:id="agregarArticulosClienteBotonAgregar" layoutX="121.0" layoutY="173.0" mnemonicParsing="false" onAction="#botonAgregar" prefHeight="33.0" prefWidth="60.0" style="-fx-background-color: #68da3e;" text="Agregar" textFill="#365740" />
+            <Button fx:id="agregarArticulosClienteBotonSiguiente" layoutX="100.0" layoutY="422.0" mnemonicParsing="false" onAction="#agregarSiguiente" prefHeight="35.0" prefWidth="105.0" style="-fx-background-color: #68da3e;" text="Siguiente" textFill="#365740" />
+            <TableView fx:id="agregarArticulosClienteTabla" layoutX="30.0" layoutY="220.0" prefHeight="110.0" prefWidth="240.0">
+              <columns>
+                <TableColumn fx:id="agregarArticulosClienteTablaNombre" prefWidth="71.0" text="Nombre" />
+                <TableColumn fx:id="agregarArticulosClienteTablaLargo" prefWidth="46.0" text="Largo" />
+                  <TableColumn fx:id="agregarArticulosClienteTablaAlto" prefWidth="42.0" text="Alto" />
+                  <TableColumn fx:id="agregarArticulosClienteTablaAncho" prefWidth="42.0" text="Ancho" />
+                  <TableColumn fx:id="agregarArticulosClienteTablaPeso" prefWidth="38.0" text="Peso" />
+              </columns>
+            </TableView>
+            <TextField fx:id="agregarArticulosClientePeso" layoutX="231.0" layoutY="134.0" prefHeight="27.0" prefWidth="64.0" promptText="Peso (kg)" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <ChoiceBox fx:id="agregarArticulosClienteCantAyudantes" layoutX="227.0" layoutY="355.0" prefHeight="25.0" prefWidth="45.0" />
+            <Text layoutX="34.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad de ayudantes:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

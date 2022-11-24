@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<<<<<<< HEAD
+=======
+<?import javafx.scene.control.TextField?>
+>>>>>>> 4aa81a9 (Proyecto subido)
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MudaFacilFx.InterfazRastrearMudanza">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#68da3e" layoutX="54.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rastrear Mudanza">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+<<<<<<< HEAD
+            <Button fx:id="rastrearMudanzaBoton" layoutX="109.0" layoutY="429.0" mnemonicParsing="false" onAction="#rastrear" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #68da3e;" text="Rastrear" textFill="#365740" />
+            <TableView fx:id="rastrearMudanzaTabla" layoutX="13.0" layoutY="84.0" prefHeight="319.0" prefWidth="276.0">
+              <columns>
+                <TableColumn prefWidth="52.0" text="Nombre" />
+                <TableColumn prefWidth="57.0" text="Recogida" />
+                  <TableColumn prefWidth="49.0" text="Destino" />
+                  <TableColumn prefWidth="50.0" text="Tamaño" />
+                  <TableColumn prefWidth="33.0" text="Pago" />
+                  <TableColumn minWidth="9.0" prefWidth="16.0" text="F" />
+                  <TableColumn prefWidth="18.0" text="H" />
+              </columns>
+            </TableView>
+=======
+            <Button fx:id="rastrearMudanzaBoton" layoutX="108.0" layoutY="455.0" mnemonicParsing="false" onAction="#rastrear" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #68da3e;" text="Rastrear" textFill="#365740" />
+            <TableView fx:id="rastrearMudanzaTabla" layoutX="13.0" layoutY="84.0" prefHeight="319.0" prefWidth="276.0">
+              <columns>
+                <TableColumn fx:id="rastrearMudanzaIdColumna" prefWidth="33.999969482421875" text="ID" >
+                    <cellValueFactory>
+                        <javafx.scene.control.cell.PropertyValueFactory property="Id" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="rastrearMudanzaRecogidaColumna" prefWidth="64.00006103515625" text="Desde" >
+                    <cellValueFactory>
+                        <javafx.scene.control.cell.PropertyValueFactory property="desde" />
+                    </cellValueFactory>
+                </TableColumn>
+                  <TableColumn fx:id="rastrearMudanzaDestinoColumna" prefWidth="76.6666259765625" text="Destino" >
+                      <cellValueFactory>
+                          <javafx.scene.control.cell.PropertyValueFactory property="Destino" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="rastrearMudanzaPagoColumna" prefWidth="22.66668701171875" text="Pay" >
+                      <cellValueFactory>
+                          <javafx.scene.control.cell.PropertyValueFactory property="Pago" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="rastrearMudanzaFechaColumna" minWidth="9.0" prefWidth="44.0" text="Fecha" >
+                      <cellValueFactory>
+                          <javafx.scene.control.cell.PropertyValueFactory property="Fecha" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="rastrearMudanzaHoraColumna" minWidth="0.0" prefWidth="38.66668701171875" text="Hora" >
+                      <cellValueFactory>
+                          <javafx.scene.control.cell.PropertyValueFactory property="Hora" />
+                      </cellValueFactory>
+                  </TableColumn>
+              </columns>
+            </TableView>
+            <TextField fx:id="mudanzaRastrear" layoutX="73.0" layoutY="411.0" />
+>>>>>>> 4aa81a9 (Proyecto subido)
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

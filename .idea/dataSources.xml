@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+<<<<<<< HEAD
+    <data-source source="LOCAL" name="MudaFacil_DB@localhost" uuid="afd10e36-498a-4369-bc32-8e2b5ab6f045">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/MudaFacil_DB</jdbc-url>
+=======
+    <data-source source="LOCAL" name="mudafacil_db@localhost" uuid="1722a353-e48f-495b-bcf0-2ea565643acb">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/mudafacil_db</jdbc-url>
+>>>>>>> 4aa81a9 (Proyecto subido)
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

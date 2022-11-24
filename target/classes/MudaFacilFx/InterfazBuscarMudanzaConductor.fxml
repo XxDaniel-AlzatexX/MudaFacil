@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<<<<<<< HEAD
+=======
+<?import javafx.scene.control.TextField?>
+>>>>>>> 4aa81a9 (Proyecto subido)
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MudaFacilFx.InterfazBuscarMudanzaConductor">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#68da3e" layoutX="64.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tomar Mudanza">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+<<<<<<< HEAD
+            <Button fx:id="buscarMudanzaConductorBotonSeleccionar" layoutX="109.0" layoutY="429.0" mnemonicParsing="false" onAction="#tomarMudanzaSiguiente" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #68da3e;" text="Seleccionar" textFill="#365740" />
+            <TableView fx:id="buscarMudanzaConductorTabla" layoutX="13.0" layoutY="84.0" prefHeight="319.0" prefWidth="276.0">
+              <columns>
+                <TableColumn fx:id="buscarMudanzaConductorTablaRecogida" prefWidth="57.0" text="Recogida" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaDestino" prefWidth="48.0" text="Destino" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaTamanio" prefWidth="50.0" text="Tamaño" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaPago" prefWidth="34.0" text="Pago" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaDia" minWidth="9.0" prefWidth="23.0" text="Dia" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaHora" minWidth="9.0" prefWidth="32.0" text="Hora" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaTipo" minWidth="9.0" prefWidth="30.0" text="Tipo" />
+              </columns>
+            </TableView>
+=======
+            <Button fx:id="buscarMudanzaConductorBotonSeleccionar" layoutX="108.0" layoutY="473.0" mnemonicParsing="false" onAction="#tomarMudanzaSiguiente" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #68da3e;" text="Seleccionar" textFill="#365740" />
+            <TableView fx:id="buscarMudanzaConductorTabla" layoutX="14.0" layoutY="85.0" prefHeight="319.0" prefWidth="276.0">
+              <columns>
+                  <TableColumn fx:id="buscarMudanzaConductorTablaId" prefWidth="34.666656494140625" text="ID" />
+                <TableColumn fx:id="buscarMudanzaConductorTablaRecogida" prefWidth="57.33331298828125" text="Recogida" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaDestino" prefWidth="47.3333740234375" text="Destino" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaTamanio" prefWidth="55.3333740234375" text="Tamaño" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaDia" minWidth="9.0" prefWidth="28.66668701171875" text="Dia" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaPago" minWidth="0.0" prefWidth="51.99993896484375" text="Pago" />
+                  <TableColumn fx:id="buscarMudanzaConductorTablaHora" minWidth="0.0" prefWidth="60.66668701171875" text="Hora" />
+              </columns>
+            </TableView>
+            <TextField fx:id="SeleccionMudanza" layoutX="77.0" layoutY="433.0" />
+>>>>>>> 4aa81a9 (Proyecto subido)
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

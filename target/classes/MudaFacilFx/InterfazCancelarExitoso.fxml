@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MudaFacilFx.InterfazCancelarExitoso">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#68da3e" layoutX="61.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cancelada &#10;Éxitosamente&#10;" textAlignment="CENTER" wrappingWidth="177.501953125">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Button fx:id="exitosamente" layoutX="124.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: Transparent;" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

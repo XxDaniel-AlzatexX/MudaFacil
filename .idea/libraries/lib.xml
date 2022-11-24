@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+<<<<<<< HEAD
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../../Documentos/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../../Documentos/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib" recursive="false" />
+=======
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+>>>>>>> 4aa81a9 (Proyecto subido)
+  </library>
+</component>

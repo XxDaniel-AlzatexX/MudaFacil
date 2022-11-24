@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<<<<<<< HEAD
+=======
+<?import javafx.scene.control.ChoiceBox?>
+>>>>>>> 4aa81a9 (Proyecto subido)
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MudaFacilFx.InterfazRegistro">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="regNom" layoutX="45.0" layoutY="89.0" prefHeight="27.0" prefWidth="210.0" promptText="Nombre" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="regCed" layoutX="45.0" layoutY="140.0" prefHeight="27.0" prefWidth="210.0" promptText="Cédula" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="regUsu" layoutX="45.0" layoutY="242.0" prefWidth="210.0" promptText="Nombre Usuario" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="regCont" layoutX="43.0" layoutY="190.0" prefHeight="27.0" prefWidth="210.0" promptText="Contraseña" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text fill="#68da3e" layoutX="105.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="regCel" layoutX="45.0" layoutY="290.0" prefWidth="210.0" promptText="Célular" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button fx:id="regSignUp" layoutX="110.0" layoutY="448.0" mnemonicParsing="false" onAction="#registro" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #68da3e;" text="Sign Up" textFill="#365740" />
+<<<<<<< HEAD
+            <Text fill="#b5abab" layoutX="51.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo de cuenta" />
+            <TextField fx:id="regFechaNaci" layoutX="43.0" layoutY="346.0" promptText="FechaNac" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="regTipoCuen" layoutX="140.0" layoutY="387.0" prefHeight="27.0" prefWidth="140.0" promptText="Tipo_Cuenta" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+=======
+            <Text fill="#b5abab" layoutX="51.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo de cuenta" />
+            <TextField fx:id="regFechaNaci" layoutX="43.0" layoutY="346.0" promptText="FechaNac" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <ChoiceBox fx:id="regTipoCuen" layoutX="155.0" layoutY="397.0" prefHeight="15.0" prefWidth="119.0" />
+>>>>>>> 4aa81a9 (Proyecto subido)
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

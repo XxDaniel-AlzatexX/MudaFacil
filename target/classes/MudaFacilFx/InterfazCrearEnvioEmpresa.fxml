@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MudaFacilFx.InterfazCrearEnvioEmpresa">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="crearMudanzaEmpresaDirLlegada" layoutX="43.0" layoutY="162.0" prefWidth="210.0" promptText="Dirección de Llegada" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="crearMudanzaEmpresaDirPartida" layoutX="43.0" layoutY="106.0" prefHeight="27.0" prefWidth="210.0" promptText="Dirección de Partida" style="-fx-background-color: transparent; -fx-border-color: #68da3e; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text fill="#68da3e" layoutX="119.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Envío">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+            <ChoiceBox fx:id="crearMudanzaEmpresaHora1" layoutX="89.0" layoutY="271.0" prefHeight="25.0" prefWidth="74.0" />
+            <Button fx:id="crearMudanzaEmpresaSiguiente" layoutX="108.0" layoutY="416.0" mnemonicParsing="false" onAction="#envioSiguiente" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #68da3e;" text="Siguiente" textFill="#365740" />
+            <Text fill="#b5abab" layoutX="46.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora" />
+            <ChoiceBox fx:id="crearMudanzaEmpresaHora2" layoutX="182.0" layoutY="271.0" prefHeight="25.0" prefWidth="70.0" />
+            <Text fill="#b5abab" layoutX="46.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Día" />
+            <ChoiceBox fx:id="crearMudanzaEmpresaDia" layoutX="89.0" layoutY="222.0" prefHeight="25.0" prefWidth="164.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
